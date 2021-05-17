@@ -1,4 +1,4 @@
-# 팀명 : Sarang
+# 팀명 : JuSarang
 
 ## 팀원
 

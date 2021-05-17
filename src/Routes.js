@@ -9,7 +9,11 @@ class Routes extends React.Component {
       <Router>
         <Switch>
           <Wrapper>
+<<<<<<< HEAD
             <Route exact path="/" component={BestPage} />]
+=======
+            <Route exact path="/" component={BestPage} />
+>>>>>>> 560c2a0 (Add: header setInterval 기능구현)
           </Wrapper>
         </Switch>
       </Router>
