@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
 
 class Wrapper extends Component {
   render() {
-    return <></>;
+    return (
+      <>
+        <Footer />
+      </>
+    );
   }
 }
 
