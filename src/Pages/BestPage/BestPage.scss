@@ -5,7 +5,8 @@
 .bestPage {
   // background-color: royalblue;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 700;
   padding: 20px 0;
   border-bottom: 1px solid black;
 }
@@ -13,8 +14,9 @@
 .bestPageTop {
   padding: 10px 5px;
   background-color: white;
-  box-shadow: 0;
-  font-size: 13px;
+  box-shadow: 5px 5px 7px lightgray;
+
+  font-size: 8px;
 }
 
 .bestPageProducts {
@@ -46,7 +48,7 @@
 
     .postscript {
       // justify-content: flex-end;
-      margin-left: 20px;
+      margin-left: 50px;
       font-size: 10px;
       color: red;
     }
