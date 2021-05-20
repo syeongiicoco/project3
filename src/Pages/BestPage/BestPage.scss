@@ -1,0 +1,54 @@
+.bestPageBox {
+  margin: 10px 60px;
+}
+
+.bestPage {
+  // background-color: royalblue;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.bestPageTop {
+  padding: 10px 5px;
+  background-color: white;
+  box-shadow: 0;
+  font-size: 13px;
+}
+
+.bestPageProducts {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 100px) / 3));
+  grid-gap: 50px;
+  // background-color: yellow;
+  margin-top: 20px;
+
+  .productImg {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  .mainName {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .mainPrice {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .mainAmount {
+    display: flex;
+    margin-top: 8px;
+    font-size: 7px;
+
+    .postscript {
+      // justify-content: flex-end;
+      margin-left: 20px;
+      font-size: 10px;
+      color: red;
+    }
+  }
+}

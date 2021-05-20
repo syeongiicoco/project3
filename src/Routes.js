@@ -8,9 +8,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Wrapper>
-            <Route exact path="/" component={BestPage} />]
-          </Wrapper>
+          <Route exact path="/" component={BestPage} />
         </Switch>
       </Router>
     );
