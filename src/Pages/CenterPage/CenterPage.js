@@ -16,8 +16,8 @@ class CenterPage extends Component {
 
     setInterval(() => {
       const { banner } = this.state;
-      this.setState({ banner: banner + 1 > 3 ? 0 : banner + 1 });
-    }, 5000);
+      this.setState({ banner: banner + 1 > 1 ? 0 : banner + 1 });
+    }, 2000);
   }
 
   goToText = e => {
@@ -60,6 +60,9 @@ class CenterPage extends Component {
             className="centerBanner"
             style={{ backgroundImage: `url("${BANNERIMG[banner]}")` }}
           />
+          <div className="todayHotDeal">
+            <div className="todayHotDealText">오늘의 핫딜!</div>
+          </div>
         </div>
       </section>
     );
