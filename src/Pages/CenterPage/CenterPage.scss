@@ -1,0 +1,109 @@
+.slideBox {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background: round;
+}
+.centerBox {
+  margin: 0 20px;
+}
+.centerText {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  font-size: 27px;
+  font-weight: 500;
+}
+.happyExhivition {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 60px) / 3));
+  grid-gap: 50px;
+}
+.exhibition {
+  display: flex;
+  position: relative;
+}
+.happyBox {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.happyBoxTopText:hover {
+  color: lightpink;
+}
+.happyBoxTopText {
+  position: absolute;
+  margin-left: 10px;
+  bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+.happyBoxBottomText {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin-right: 5px;
+  font-size: 15px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+}
+.centerBanner {
+  height: 250px;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.todayHotDeal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 70px 0 30px 0;
+  overflow: hidden;
+
+  .todayHotDealText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 27px;
+    font-weight: 800;
+  }
+  .todayHotDealInfo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    width: 900px;
+
+    .todayHotDealImgBox {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+    }
+    .todayHotDealImg {
+      width: 300px;
+      height: 100px;
+      justify-content: center;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+.arrowBox {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 10px;
+  .fa-arrow-left {
+    position: absolute;
+    color: lightgreen;
+  }
+  .fa-arrow-right {
+    position: absolute;
+    color: orange;
+    right: 0;
+  }
+}
